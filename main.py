@@ -19,3 +19,7 @@ if num % check == 0:
     print("These two numbers divide evenly into each other.")
 else:
     print("These two numbers do not divide evenly into each other.")
+
+squared = input("Choose a number to square")
+result = int(squared) * int(squared)
+print(result)
