@@ -16,6 +16,6 @@ check = input("Choose second number: ")
 check = int(check)
 
 if num % check == 0:
-    print("The numbers divide evenly into each other.")
+    print("These two numbers divide evenly into each other.")
 else:
-    print("The numbers don't divide evenly into each other.")
+    print("These two numbers do not divide evenly into each other.")
